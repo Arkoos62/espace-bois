@@ -7,7 +7,7 @@
     "frontity"
   ],
   "engines": {
-    "node": "20.x",
+    "node": "16.x",
     "npm": ">=6.0.0"
   },
   "scripts": {
@@ -21,6 +21,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@frederiknordahl/now": "^1.2.5",
     "@frontity/core": "^1.16.0",
     "@frontity/html2react": "^1.7.0",
     "@frontity/tiny-router": "^1.4.4",
