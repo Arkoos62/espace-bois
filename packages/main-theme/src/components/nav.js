@@ -30,7 +30,7 @@ const Navigation = ({ actions, state }) => {
                         </Link>
                     </NavItem>
                     <NavItem isBigScreen={isBigScreen} isDekstop={isDekstop} isMedium={isMedium} isLaptop={isLaptop} isSmall={isSmall} isMobile={isMobile}>
-                        <Link link="/categories">Nos réalisations</Link>
+                        <Link link="/categories">Services</Link>
                     </NavItem>
                     <NavItem isBigScreen={isBigScreen} isDekstop={isDekstop} isMedium={isMedium} isLaptop={isLaptop} isSmall={isSmall} isMobile={isMobile}>
                         <Link link="/contact">Contact</Link>
@@ -44,10 +44,10 @@ const Navigation = ({ actions, state }) => {
                 </Logo>
                 <NavLinksRight>
                     <NavItem isBigScreen={isBigScreen} isDekstop={isDekstop} isMedium={isMedium} isLaptop={isLaptop} isSmall={isSmall} isMobile={isMobile}>
-                        <Link link="#">Nos partenaires</Link>
+                        <Link link="#">L'historique</Link>
                     </NavItem>
                     <NavItem isBigScreen={isBigScreen} isDekstop={isDekstop} isMedium={isMedium} isLaptop={isLaptop} isSmall={isSmall} isMobile={isMobile}>
-                        <Link link="#">Services</Link>
+                        <Link link="#">Nos partenaires</Link>
                     </NavItem>
                     <NavItemSearch isBigScreen={isBigScreen} isDekstop={isDekstop} isMedium={isMedium} isLaptop={isLaptop} isSmall={isSmall} isMobile={isMobile}>
 
@@ -74,7 +74,7 @@ const NavBar = styled.nav`
     height 0s ease-in-out, box-shadow 0.9s ease-in-out,
     position 0.9s ease-in-out;  
    background-color: #E2E2E2;
-  height: "20vh";
+  height: 20vh;
  
 
 `;
@@ -82,7 +82,7 @@ const NavBar = styled.nav`
 const NavLinksLeft = styled.div`
   display: flex;
   align-items: center;
-  flex-fow: row nowrap;
+  flex-flow: row nowrap;
   margin-left: 1rem; 
 `;
 
