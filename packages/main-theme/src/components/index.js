@@ -81,7 +81,7 @@ const Container = styled.div`
    min-height: 100vh;
 
 `;
-
+//
 // COLOR CODE
 // CHOCOLATE (MAIN) background-color: #8f7870;
 // ORANGE (SECOND)  background-color: #df683f;
